@@ -1,6 +1,8 @@
 # 金融热点热度监控网站
 
 一个本地运行的“小红书金融 FOMO 情绪”监控网站。它像金融看盘工具，但核心不是行情终端，而是发现小红书上短时间爆火的金融话题、散户 FOMO 情绪、科技热点、AI/芯片/美股/加密货币讨论和评论区互动增长。
+<img width="1259" height="946" alt="截屏2026-05-13 下午2 09 59" src="https://github.com/user-attachments/assets/4912a2d1-987a-4f3c-9f08-8a82d403f73d" />
+<img width="1260" height="940" alt="截屏2026-05-13 下午2 08 16" src="https://github.com/user-attachments/assets/aca0c7fc-1a5c-4937-aca4-90919f8b726c" />
 
 ## 功能
 
