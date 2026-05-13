@@ -1,0 +1,4 @@
+[
+  { "keyword": "AI算力", "market": "us", "relatedSymbols": ["NVDA", "AMD", "MU", "TSM"], "aliases": ["AI", "算力", "英伟达", "HBM", "台积电", "芯片"] },
+  { "keyword": "BTC", "market": "crypto", "relatedSymbols": ["BTCUSDT", "BTC"], "aliases": ["比特币", "BTC", "Bitcoin", "现货ETF", "减半"] }
+]

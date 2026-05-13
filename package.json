@@ -1,0 +1,41 @@
+{
+  "name": "xhs-finance-fomo-monitor",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "postinstall": "node --disable-warning=ExperimentalWarning scripts/init-db.mjs",
+    "dev": "node scripts/dev.mjs",
+    "dev:web": "next dev",
+    "build": "NODE_OPTIONS=--disable-warning=ExperimentalWarning next build",
+    "start": "node scripts/start.mjs",
+    "lint": "next lint",
+    "init-db": "node --disable-warning=ExperimentalWarning scripts/init-db.mjs",
+    "seed": "node --disable-warning=ExperimentalWarning scripts/seed.mjs",
+    "collect": "node --disable-warning=ExperimentalWarning scripts/collect.mjs",
+    "scheduler": "node --disable-warning=ExperimentalWarning scripts/scheduler.mjs",
+    "import": "node --disable-warning=ExperimentalWarning scripts/import-data.mjs"
+  },
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.468.0",
+    "next": "^14.2.16",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "recharts": "^2.13.3",
+    "tailwind-merge": "^2.5.5",
+    "tailwindcss-animate": "^1.0.7",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^8.57.1",
+    "eslint-config-next": "^14.2.16",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.16",
+    "typescript": "^5.7.2"
+  }
+}
